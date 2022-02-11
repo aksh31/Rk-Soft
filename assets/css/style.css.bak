@@ -1,0 +1,83 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+/*---- helper class----*/
+.text-center
+{
+	text-align:center;
+}
+a:link, 
+a:hover, 
+a:focus, 
+a:active
+{
+	text-decoration:none;
+}
+/*---- Container class----*/
+.container
+{
+	width:1200px;
+	margin:0 auto;
+}
+/*---- heading css----*/
+.heading
+{
+	font-family: 'Passion One', cursive;
+	font-size:48px;
+
+	color:#be2230;
+	margin:43px 0 38.5px 0;	
+}
+/*---- navbar css----*/
+.navbar
+{
+	list-style:none;
+	margin-bottom:25.5px;
+}
+.navbar li
+{
+	display:inline-block;
+	margin:0 10px;
+}
+.navbar li a
+{
+	font-family: 'Open Sans', sans-serif;
+	text-transform:capitalize;
+	display:inline-block;
+	font-size:14px;
+	color:#424242;
+	padding:6.5px;
+}
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li a:active,
+.navbar li a.active
+{
+	color:#bb2733;
+}
+/*---- heroimage css----*/
+.heroimage img
+{
+	width:100%;
+	margin-bottom:31px;
+}
+/*---- Info css----*/
+.info h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:30px;
+	color:#be2230;
+	margin-bottom:14px;
+}
+.info p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	color:#2e2e2e;
+	line-height:20px;
+	margin-bottom:40px;
+	text-align:justify;
+}
